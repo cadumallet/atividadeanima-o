@@ -1,0 +1,32 @@
+html{
+    text-align: center;
+}
+h1 , h2{
+    color: #88046c;
+}
+div{
+    background-color: pink;
+    width: 500px;
+}
+img:hover{
+    animation: pulso 2s  infinite;
+}
+@keyframes pulso {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+img:active{
+    animation: pulsoRapido 0.8s  infinite;
+}
+@keyframes pulsoRapido {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
